@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int age;
+cout<<"Enter Age of Candidate:";
+cin>>age;
+if(age<18)
+cout<<"/n Candidate not eligible for voting";
+else
+cout<<"Candidate eligible for voting";
+getch();
+}
